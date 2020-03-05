@@ -64,7 +64,7 @@ libraryDependencies ++= Seq(
   "org.apache.hudi" % "hudi-spark" % "0.5.0-incubating" % "provided" excludeAll(excludeHoodieTimeLineService),
   "org.apache.hudi" % "hudi-common" % "0.5.0-incubating" % "provided" excludeAll(excludeHoodieTimeLineService),
   "org.apache.avro" % "avro" % "1.8.2" % "provided",
-  "org.apache.hive" % "hive-jdbc" % "1.2.2" % "provided" excludeAll(excludeNetty, excludeNettyAll)
+  "org.apache.hive" % "hive-jdbc" % "2.3.1" % "provided" excludeAll(excludeNetty, excludeNettyAll)
 )
 
 // Temporary fix for https://github.com/databricks/spark-redshift/issues/315#issuecomment-285294306
